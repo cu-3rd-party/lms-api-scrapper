@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "LMS API scrapper",
+  "version": "0.1",
+  "description": "Monitors API requests to centraluniversity.ru and saves them to a file.",
+  "permissions": [
+    "webRequest",
+    "storage",
+    "downloads",
+    "debugger",
+    "tabs"
+  ],
+  "host_permissions": [
+    "*://*.centraluniversity.ru/*",
+    "*://*.cu.ru/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
