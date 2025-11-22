@@ -9,3 +9,4 @@
 6. Потом открываем в любом MD редакторе сгенерированный файл и смотрим API документацию LMS
 
 # NOTES: Тестировалось на Google Chrome
+# NOTES: Работает только с отключенным https://github.com/cu-3rd-party/lms-extension
